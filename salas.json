@@ -1,0 +1,46 @@
+[
+  {
+    "_id": { "$oid": "64f3a2b1c9e4d5f6a7b8c021" },
+    "complejo_id": { "$oid": "64f3a2b1c9e4d5f6a7b8c011" },
+    "numero": 1,
+    "nombre": "Sala IMAX",
+    "tipo": "IMAX",
+    "capacidad": 180,
+    "pantalla": "IMAX 1.43:1 Giant Screen 28m x 20m",
+    "sonido": "Dolby Atmos",
+    "proyector": "IMAX Dual Laser 4K",
+    "ultima_renovacion": { "$date": "2023-01-10" },
+    "asientos_config": {
+      "filas": 15,
+      "columnas": 12,
+      "total_asientos": 180,
+      "reclinables": false,
+      "accesibilidad": {
+        "espacios_discapacidad": 6,
+        "ubicacion": "Fila A, extremos laterales"
+      }
+    }
+  },
+  {
+    "_id": { "$oid": "64f3a2b1c9e4d5f6a7b8c022" },
+    "complejo_id": { "$oid": "64f3a2b1c9e4d5f6a7b8c012" },
+    "numero": 3,
+    "nombre": "Sala VIP",
+    "tipo": "VIP",
+    "capacidad": 40,
+    "pantalla": "Pantalla curva 12m x 6m",
+    "sonido": "Dolby Atmos",
+    "proyector": "Christie CP4325-RGB Laser 4K",
+    "ultima_renovacion": { "$date": "2024-03-01" },
+    "asientos_config": {
+      "filas": 5,
+      "columnas": 8,
+      "total_asientos": 40,
+      "reclinables": true,
+      "accesibilidad": {
+        "espacios_discapacidad": 2,
+        "ubicacion": "Fila A, lado derecho"
+      }
+    }
+  }
+]

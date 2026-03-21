@@ -1,0 +1,47 @@
+[
+  {
+    "_id": { "$oid": "64f3a2b1c9e4d5f6a7b8c001" },
+    "nombre": "Multicines PZ",
+    "razon_social": "Multicines PZ S.A.",
+    "pais": "Costa Rica",
+    "fecha_fundacion": { "$date": "1995-03-15" },
+    "fecha_inicio": { "$date": "1995-03-15" },
+    "servicios": ["Confitería", "Zona de Restaurante", "Estacionamiento", "Sala VIP"],
+    "zonas_geograficas": ["San José", "Heredia", "Alajuela", "Cartago"],
+    "convenios": [
+      {
+        "fecha_inicio": { "$date": "2024-01-01" },
+        "estrenos_mes": 6,
+        "porc_taquilla": 45,
+        "generos": ["Acción", "Comedia", "Animación", "Drama"],
+        "titulos_exclusivos": true
+      },
+      {
+        "fecha_inicio": { "$date": "2024-06-01" },
+        "estrenos_mes": 4,
+        "porc_taquilla": 40,
+        "generos": ["Terror", "Ciencia Ficción"],
+        "titulos_exclusivos": false
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "64f3a2b1c9e4d5f6a7b8c002" },
+    "nombre": "Cinemark Costa Rica",
+    "razon_social": "Cinemark de Costa Rica S.A.",
+    "pais": "Costa Rica",
+    "fecha_fundacion": { "$date": "2000-07-20" },
+    "fecha_inicio": { "$date": "2000-07-20" },
+    "servicios": ["Confitería", "Zona de Juegos", "Estacionamiento", "XD Experience"],
+    "zonas_geograficas": ["San José", "Heredia", "Guanacaste", "Puntarenas"],
+    "convenios": [
+      {
+        "fecha_inicio": { "$date": "2024-01-15" },
+        "estrenos_mes": 8,
+        "porc_taquilla": 50,
+        "generos": ["Acción", "Aventura", "Animación", "Romance", "Terror"],
+        "titulos_exclusivos": true
+      }
+    ]
+  }
+]
