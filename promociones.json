@@ -1,0 +1,64 @@
+[
+  {
+    "_id": "7208h1b2c3d4e5f678901111",
+    "nombre": "2x1 Miembros Oro",
+    "descripcion": "Compra una entrada y la segunda es gratis para miembros de nivel Oro en salas convencionales.",
+    "tipo_promocion": "2x1",
+    "valor": 100,
+    "codigo_cupon": "ORO2X1",
+    "filtros_aplicacion": {
+      "cadena_id": "6501a1b2c3d4e5f678901234",
+      "complejo_id": "6602b2c3d4e5f67890123456",
+      "pelicula_id": null,
+      "dias_semana": ["Lunes", "Martes", "Jueves"],
+      "tipo_sala": ["Convencional"],
+      "tipo_tanda": "Normal"
+    },
+    "segmentación_cliente": {
+      "solo_miembros": true,
+      "nivel_lealtad_minimo": "Oro",
+      "puntos_requeridos": 0
+    },
+    "control_uso": {
+      "max_usos": 500,
+      "monto_minimo_compra": 3000,
+      "usos_actuales": 145
+    },
+    "vigencia": {
+      "fecha_inicio": "2024-01-01T00:00:00Z",
+      "fecha_fin": "2024-12-31T23:59:59Z"
+    },
+    "estado": "Activa"
+  },
+  {
+    "_id": "7208h1b2c3d4e5f678902222",
+    "nombre": "Swiftie Discount",
+    "descripcion": "50% de descuento en tu entrada para The Eras Tour si canjeas tus puntos de lealtad.",
+    "tipo_promocion": "Porcentaje",
+    "valor": 50,
+    "codigo_cupon": "ERASTOUR50",
+    "filtros_aplicacion": {
+      "cadena_id": "6501a1b2c3d4e5f678901234",
+      "complejo_id": null,
+      "pelicula_id": "6703c1d2e3f4g5h678901111",
+      "dias_semana": ["Viernes", "Sábado", "Domingo"],
+      "tipo_sala": ["IMAX", "Convencional"],
+      "tipo_tanda": "Nocturna"
+    },
+    "segmentación_cliente": {
+      "solo_miembros": true,
+      "nivel_lealtad_minimo": "Bronce",
+      "puntos_requeridos": 500
+    },
+    "control_uso": {
+      "max_usos": 100,
+      "monto_minimo_compra": 0,
+      "usos_actuales": 12
+    },
+    "vigencia": {
+      "fecha_inicio": "2024-04-01T00:00:00Z",
+      "fecha_fin": "2024-04-30T23:59:59Z"
+    },
+    "estado": "Activa"
+  }
+]

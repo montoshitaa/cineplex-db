@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "7006f1g2h3i4j5k678901234",
+    "funcion_id": "6905e1f2g3h4i5j678903333",
+    "pelicula_id": "6703c1d2e3f4g5h678901111",
+    "sala_id": "6804d1e2f3g4h5i678901234",
+    "complejo_id": "6602b2c3d4e5f67890123456",
+    "fecha_hora_inicio": "2026-04-15T18:30:00Z",
+    "hora_fin": "21:15",
+    "duracion_total": 165,
+    "tipo_tanda": "Normal",
+    "activo": true
+  },
+  {
+    "_id": "7006f1g2h3i4j5k678905678",
+    "funcion_id": "6905e1f2g3h4i5j678904444",
+    "pelicula_id": "6703c1d2e3f4g5h678902222",
+    "sala_id": "6804d1e2f3g4h5i678905678",
+    "complejo_id": "6602b2c3d4e5f67890123456",
+    "fecha_hora_inicio": "2026-04-15T10:30:00Z",
+    "hora_fin": "12:15",
+    "duracion_total": 105,
+    "tipo_tanda": "Matutina",
+    "activo": true
+  }
+]

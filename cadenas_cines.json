@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "6501a1b2c3d4e5f678901234",
+    "nombre": "CineMark Costa Rica",
+    "razon_social": "Inversiones Cinematográficas del Sur S.A.",
+    "pais": "Costa Rica",
+    "logo_url": "https://cdn.cinemark.com/logos/cr_logo.png",
+    "contacto": {
+      "email": "servicioalcliente@cinemarkca.com",
+      "telefono": "+506 4000-2463",
+      "sitio_web": "https://www.cinemarkca.com"
+    },
+    "servicios": ["Venta Online", "Dulcería VIP", "App Móvil", "Programa de Lealtad"],
+    "fecha_fundacion": "1984-06-15T00:00:00Z",
+    "fecha_inicio": "1998-11-20T00:00:00Z",
+    "zonas_geograficas": ["GAM", "Pacífico Central"],
+    "convenios": [
+      {
+        "distribuidora": "Warner Bros Pictures",
+        "fecha_inicio": "2024-01-01T00:00:00Z",
+        "estrenos_mes": 4,
+        "porc_taquilla": 45.5,
+        "generos": ["Acción", "Ciencia Ficción", "Drama"],
+        "titulos_exclusivos": false
+      },
+      {
+        "distribuidora": "Disney Studios",
+        "fecha_inicio": "2024-01-01T00:00:00Z",
+        "estrenos_mes": 3,
+        "porc_taquilla": 50.0,
+        "generos": ["Animación", "Familiar", "Aventura"],
+        "titulos_exclusivos": true
+      }
+    ]
+  },
+  {
+    "_id": "6501a1b2c3d4e5f678905678",
+    "nombre": "Nova Cinemas",
+    "razon_social": "Entretenimiento de Altura S.A.",
+    "pais": "Costa Rica",
+    "logo_url": "https://novacinemas.cr/assets/img/logo-nova.png",
+    "contacto": {
+      "email": "info@novacinemas.cr",
+      "telefono": "+506 2299-9999",
+      "sitio_web": "https://www.novacinemas.cr"
+    },
+    "servicios": ["Salas VIP", "Restaurante", "Eventos Privados", "IMAX"],
+    "fecha_fundacion": "2010-03-10T00:00:00Z",
+    "fecha_inicio": "2010-05-01T00:00:00Z",
+    "zonas_geograficas": ["San José", "Alajuela"],
+    "convenios": [
+      {
+        "distribuidora": "Universal Pictures",
+        "fecha_inicio": "2024-02-15T00:00:00Z",
+        "estrenos_mes": 2,
+        "porc_taquilla": 40.0,
+        "generos": ["Terror", "Comedia"],
+        "titulos_exclusivos": false
+      }
+    ]
+  }
+]

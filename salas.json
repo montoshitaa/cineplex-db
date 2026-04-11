@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "6804d1e2f3g4h5i678901234",
+    "complejo_id": "6602b2c3d4e5f67890123456",
+    "nombre": "Sala 1 - XD Premium",
+    "tipo_sala": "Convencional",
+    "zonas_disponibles": ["General", "Preferencial"],
+    "capacidad": 180,
+    "pantalla": ["Gigante XD", "Alta Reflectividad"],
+    "sonido": "Dolby Atmos",
+    "proyector": "Barco Laser 4K",
+    "ultima_renovacion": "2023-11-15T00:00:00Z",
+    "asientos_config": {
+      "filas": 12,
+      "asientos_por_fila": 15,
+      "total_asientos": 180,
+      "accesibilidad": {
+        "espacios_discapacidad": 4,
+        "ubicacion": "Fila A (Primera Fila)"
+      }
+    }
+  },
+  {
+    "_id": "6804d1e2f3g4h5i678905678",
+    "complejo_id": "6602b2c3d4e5f67890123456",
+    "nombre": "Sala 5 - VIP Lounge",
+    "tipo_sala": "VIP",
+    "zonas_disponibles": ["VIP"],
+    "capacidad": 40,
+    "pantalla": ["Silver Screen", "3D Ready"],
+    "sonido": "Dolby Digital",
+    "proyector": "Christie CP4230",
+    "ultima_renovacion": "2024-02-01T00:00:00Z",
+    "asientos_config": {
+      "filas": 5,
+      "asientos_por_fila": 8,
+      "total_asientos": 40,
+      "accesibilidad": {
+        "espacios_discapacidad": 2,
+        "ubicacion": "Pasillo Central"
+      }
+    }
+  }
+]

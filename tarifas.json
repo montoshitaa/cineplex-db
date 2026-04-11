@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "7107g1b2c3d4e5f678901111",
+    "complejo_id": "6602b2c3d4e5f67890123456",
+    "cadena_id": "6501a1b2c3d4e5f678901234",
+    "tipo_sala": "IMAX",
+    "tipo_tanda": "Normal",
+    "dia_semana": ["Lunes", "Martes", "Miércoles"],
+    "precios": [
+      {
+        "categoria_cliente": "Adulto",
+        "precio_base": 5000,
+        "impuestos": 650,
+        "total": 5650
+      },
+      {
+        "categoria_cliente": "Niño",
+        "precio_base": 3500,
+        "impuestos": 455,
+        "total": 3955
+      },
+      {
+        "categoria_cliente": "Adulto Mayor",
+        "precio_base": 3500,
+        "impuestos": 455,
+        "total": 3955
+      }
+    ]
+  },
+  {
+    "_id": "7107g1b2c3d4e5f678902222",
+    "complejo_id": "6602b2c3d4e5f67890123456",
+    "cadena_id": "6501a1b2c3d4e5f678901234",
+    "tipo_sala": "VIP",
+    "tipo_tanda": "Nocturna",
+    "dia_semana": ["Jueves", "Viernes", "Sábado", "Domingo"],
+    "precios": [
+      {
+        "categoria_cliente": "Adulto",
+        "precio_base": 8000,
+        "impuestos": 1040,
+        "total": 9040
+      },
+      {
+        "categoria_cliente": "Estudiante",
+        "precio_base": 6500,
+        "impuestos": 845,
+        "total": 7345
+      }
+    ]
+  }
+]

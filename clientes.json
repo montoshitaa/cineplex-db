@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "7309i1b2c3d4e5f678901111",
+    "identificacion": {
+      "tipo": "Cédula Nacional",
+      "numero": "1-0987-0654"
+    },
+    "nombre": "Hairol",
+    "apellidos": "Romero",
+    "genero": "M",
+    "email": "hairol.romero@email.com",
+    "contraseña": "hashed_password_789",
+    "telefono": "8345-1234",
+    "fecha_nacimiento": "1990-08-15T00:00:00Z",
+    "programa_lealtad": {
+      "puntos_acumulados": 1500,
+      "nivel": "Oro",
+      "generos_preferidos": ["Acción", "Ciencia Ficción", "Música"],
+      "complejo_habitual_id": "6602b2c3d4e5f67890123456"
+    }
+  },
+  {
+    "_id": "7309i1b2c3d4e5f678902222",
+    "identificacion": {
+      "tipo": "Cédula Residencia",
+      "numero": "155800012345"
+    },
+    "nombre": "Matteo",
+    "apellidos": "Vargas",
+    "genero": "M",
+    "email": "matteo.vargas@email.com",
+    "contraseña": "hashed_password_abc",
+    "telefono": "6012-9876",
+    "fecha_nacimiento": "2002-03-10T00:00:00Z",
+    "programa_lealtad": {
+      "puntos_acumulados": 450,
+      "nivel": "Plata",
+      "generos_preferidos": ["Comedia", "Animación"],
+      "complejo_habitual_id": "6602b2c3d4e5f67890123456"
+    }
+  }
+]

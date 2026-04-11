@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "8801a1b2c3d4e5f678901111",
+    "sala_id": "6804d1e2f3g4h5i678901234",
+    "funcion_id": "6905e1f2g3h4i5j678903333",
+    "fila": "F",
+    "numero": 10,
+    "zona": "Preferencial",
+    "tipo_asiento": "Reclinable",
+    "precio_asociado": 5650,
+    "discapacidad": false,
+    "estado": "Vendido"
+  },
+  {
+    "_id": "8801a1b2c3d4e5f678902222",
+    "sala_id": "6804d1e2f3g4h5i678901234",
+    "funcion_id": "6905e1f2g3h4i5j678903333",
+    "fila": "A",
+    "numero": 1,
+    "zona": "General",
+    "tipo_asiento": "Estándar",
+    "precio_asociado": 5650,
+    "discapacidad": true,
+    "estado": "Disponible"
+  }
+]

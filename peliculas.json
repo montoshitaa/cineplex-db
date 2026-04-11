@@ -1,0 +1,59 @@
+[
+  {
+    "_id": "6703c1d2e3f4g5h678901111",
+    "titulo_org": "Taylor Swift: The Eras Tour",
+    "titulo_esp": "Taylor Swift: The Eras Tour",
+    "sinopsis": "Experimenta el fenómeno cultural de la gira mundial de Taylor Swift en la pantalla grande, una experiencia cinematográfica única de uno de los conciertos más icónicos de la historia.",
+    "duracion_min": 169,
+    "generos": ["Música", "Documental"],
+    "clasificacion": "TP",
+    "pais_origen": "Estados Unidos",
+    "idioma_org": "Inglés",
+    "directores": ["Sam Wrench"],
+    "reparto": ["Taylor Swift"],
+    "productora": "Taylor Swift Productions",
+    "distribuidora": "AMC Theatres Distribution",
+    "estreno_mundial": "2023-10-13T00:00:00Z",
+    "estreno_cr": "2023-10-13T00:00:00Z",
+    "estado": "En cartelera",
+    "formatos_disponibles": ["2D", "IMAX"],
+    "material_promocional": {
+      "poster_url": "https://image.tmdb.org/t/p/original/the_eras_tour.jpg",
+      "trailer_url": "https://youtube.com/watch?v=kPXg6igSqiQ",
+      "puntuaciones_criticas": [
+        { "fuente": "Rotten Tomatoes", "puntaje": 99, "maximo": 100 },
+        { "fuente": "Metacritic", "puntaje": 84, "maximo": 100 }
+      ],
+      "calificacion_publico": { "puntaje": 4.9, "total_votos": 25000 },
+      "imagenes_adicionales": ["https://cine.com/swift1.jpg", "https://cine.com/swift2.jpg"]
+    }
+  },
+  {
+    "_id": "6703c1d2e3f4g5h678902222",
+    "titulo_org": "A Minecraft Movie",
+    "titulo_esp": "Minecraft: La Película",
+    "sinopsis": "Cuatro inadaptados se ven arrastrados a través de un misterioso portal al Mundo Real: un extraño país de las maravillas cúbico que se nutre de la imaginación y la creatividad para sobrevivir.",
+    "duracion_min": 105,
+    "generos": ["Aventura", "Fantasía", "Comedia"],
+    "clasificacion": "TP",
+    "pais_origen": "Estados Unidos",
+    "idioma_org": "Inglés",
+    "directores": ["Jared Hess"],
+    "reparto": ["Jason Momoa", "Jack Black", "Emma Myers", "Danielle Brooks"],
+    "productora": "Mojang Studios",
+    "distribuidora": "Warner Bros. Pictures",
+    "estreno_mundial": "2025-04-04T00:00:00Z",
+    "estreno_cr": "2025-04-03T00:00:00Z",
+    "estado": "Próximamente",
+    "formatos_disponibles": ["2D", "3D", "IMAX"],
+    "material_promocional": {
+      "poster_url": "https://image.tmdb.org/t/p/original/minecraft_movie.jpg",
+      "trailer_url": "https://youtube.com/watch?v=w51_v_36_6E",
+      "puntuaciones_criticas": [
+        { "fuente": "IMDb", "puntaje": 0, "maximo": 10 }
+      ],
+      "calificacion_publico": { "puntaje": 0, "total_votos": 0 },
+      "imagenes_adicionales": ["https://cine.com/minecraft_world.jpg"]
+    }
+  }
+]
