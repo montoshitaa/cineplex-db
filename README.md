@@ -34,5 +34,5 @@ Se ha completado el esquema íntegro de la base de datos con **2 documentos cohe
 ### Datos de Conexión
 ```text
 Cluster        : CINEPLEX-CLUSTER
-Base de datos  : cineplex_db
+Base de datos  : cineplex-db
 Estado         : Producción / Entrega Final
