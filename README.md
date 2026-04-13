@@ -1,4 +1,4 @@
-# 🎬 CINEPLEX DB
+# 🎬 CINEPLEX DB — Entrega Final
  
 **Universidad Nacional — Sede Región Brunca**  
 **División de Ciencias Exactas, Naturales y Tecnología**  
@@ -8,61 +8,31 @@
  
 ## 📋 Descripción del Proyecto
  
-CINEPLEX es una base de datos no relacional desarrollada en **MongoDB Atlas** para gestionar el sistema de reservaciones de boletos de cine de las principales cadenas cinematográficas de Costa Rica.
+CINEPLEX es una solución de base de datos no relacional de alto rendimiento desarrollada en **MongoDB Atlas**. El proyecto gestiona de forma integral el ecosistema de un cine moderno: desde la infraestructura física (salas y complejos) hasta la experiencia del usuario (programa de lealtad, reservas en tiempo real y promociones dinámicas).
  
-El sistema permite administrar cadenas de cines, complejos, salas, películas, funciones, horarios, tarifas, asientos, reservas, boletos y clientes de forma integrada y coherente.
+El sistema está diseñado bajo una arquitectura de **documentos enriquecidos**, optimizando la velocidad de consulta mediante denormalización estratégica en boletos y funciones para garantizar una respuesta inmediata en el punto de venta.
  
 ---
  
-## 🚀Colecciones Implementadas
+## 🚀 Colecciones Implementadas (13)
  
-En este primer avance se implementaron las **4 colecciones base**:
+Se ha completado el esquema íntegro de la base de datos con **2 documentos coherentes por colección**, reflejando casos de uso reales:
  
-| Colección | Documentos | Descripción |
+| Módulo | Colecciones | Descripción |
 |---|---|---|
-| `cadenas_cines` | 2 | Multicines PZ y Cinemark Costa Rica |
-| `complejos` | 2 | Plaza Mayor (SJO) y Paseo Las Flores (HER) |
-| `salas` | 2 | Sala IMAX y Sala VIP |
-| `peliculas` | 3 | Barbie, A Minecraft Movie, The Eras Tour |
+| **Infraestructura** | `cadenas_cines`, `complejos`, `salas` | Gestión de marcas (CineMark, Nova) y sus instalaciones físicas. |
+| **Catálogo** | `peliculas` | Información detallada, incluyendo *The Eras Tour* y *Minecraft Movie*. |
+| **Programación** | `funciones`, `horarios` | Control de tandas, formatos (IMAX, 4DX) y tiempos técnicos de limpieza. |
+| **Comercial** | `tarifas`, `promociones` | Precios por categoría y reglas de negocio para descuentos dinámicos. |
+| **Usuarios** | `clientes`, `asientos` | Perfiles de lealtad (Hairol Romero, Matteo Vargas) y estado de butacas. |
+| **Transaccional** | `reservas`, `boletos`, `historial` | Flujo de compra, emisión de tickets QR y auditoría de redenciones. |
  
 ---
  
 ## ⚙️ Configuración de MongoDB Atlas
  
-### Datos de conexión
-```
-Cluster  : CINEPLEX-Cluster
-Base de datos : cineplex_db
-```
- 
-### Cadena de conexión
-```
-mongodb+srv://<usuario>:<password>@cineplex-cluster.xxxxx.mongodb.net/cineplex_db
-```
----
- 
-## 🔗 Referencias Entre Colecciones
- 
-```
-cadenas_cines ←── complejos ←── salas ←── funciones ──→ peliculas
-                                              │
-                              tarifas ←── boletos ──→ reservas ──→ clientes
-                                              │
-                              asientos ───────┘
-                              horarios ──→ funciones
-```
- 
----
- 
-## 📌 Notas Técnicas
- 
-- Motor exclusivo: **MongoDB Atlas**
-- Todas las referencias entre colecciones usan **ObjectId**
-- Las contraseñas se almacenan **hasheadas** (bcrypt)
-- Los datos de prueba son **coherentes entre sí** (una sala referencia un complejo que existe, etc.)
-- La clasificación de películas sigue el estándar **costarricense** (A, B, B15, C, D)
- 
----
- 
-*Proyecto desarrollado para el curso EIF 211 — Universidad Nacional, Sede Región Brunca — 2026*
- 
+### Datos de Conexión
+```text
+Cluster        : CINEPLEX-CLUSTER
+Base de datos  : cineplex_db
+Estado         : Producción / Entrega Final
